@@ -16,6 +16,20 @@
             "value": "fMRI"
         }
     ],
+    "distributions": [
+	        {
+			"formats": [
+				"NIfTI"
+            		],
+			"size" : 5.06,
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://www.openpain.org/"
+			}
+		}
+	],
     "version": "1.0",
     "privacy": "Open Access",
     "isAbout": [
@@ -32,7 +46,31 @@
                     "value": "152"
                 }
             ]
-        }
+        },
+	{
+			"category": "contact",
+			"values": [
+				{
+					"value": "A. Vania Apkarian, Director Center for Translational Pain Research, Northwestern University, Feinberg School of Medicine, a-apkarian@northwestern.edu"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "492"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "http://openpain.org/images/OP_Pic1.jpg"
+				}
+			]
+		}
     ]
 }
 
