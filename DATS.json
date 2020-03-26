@@ -13,12 +13,18 @@
         }
     ],
     "types": [
-        { 
-            "value": "MRI"
-        },
-        { 
-            "value": "fMRI"
-        }
+        {
+		"information":
+		{
+		            "value": "MRI"
+	        }
+	},
+        {
+		"information":
+		{
+		            "value": "fMRI"
+	        }
+	}
     ],
     "distributions": [
 	        {
