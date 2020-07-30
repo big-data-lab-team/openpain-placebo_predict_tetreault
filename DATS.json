@@ -8,7 +8,6 @@
 	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
@@ -57,7 +56,6 @@
     "privacy": "Open Access",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
@@ -70,7 +68,7 @@
                 }
             ]
         },
-	{
+		{
 			"category": "contact",
 			"values": [
 				{
@@ -83,6 +81,17 @@
 			"values": [
 				{
 					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "origin",
+			"values": [
+				{
+					"institution": "Northwestern University",
+					"city": "Evanston",
+					"province": "Illinois",
+					"country": "USA"
 				}
 			]
 		},
