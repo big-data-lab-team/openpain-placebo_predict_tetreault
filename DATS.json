@@ -1,20 +1,29 @@
 {
     "title": "OpenPain placebo_predict_tetreault",
-    "description": "In this dataset you will find the following T1 and resting state scans for: * 20 Healthy controls. * 17 Osteoarthritis (OA) patients from a 2-week placebo only treatment (study 1) scanned before treatment. * 39 OA patients from a 3-month placebo vs duloxetine treatment (study 2) scanned before treatment. Demographics with age, gender, stratification, etc. can be found in the participants.tsv file. This data has been released to the public domain under the open data commons license, a copy of which is included. An additional copy has also been submitted to http://openfmri.org",
-    
+    "description": "In this dataset you will find the following T1 and resting state scans for: * 20 Healthy controls. * 17 Osteoarthritis (OA) patients from a 2-week placebo only treatment (study 1) scanned before treatment. * 39 OA patients from a 3-month placebo vs duloxetine treatment (study 2) scanned before treatment. Demographics with age, gender, stratification, etc. can be found in the participants.tsv file. This data has been released to the public domain under the open data commons license, a copy of which is included. An additional copy has also been submitted to http://openfmri.org", 
+    "licenses": [
+		{
+			"name": "http://openpain.org/generalLicense.html"
+		}
+	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
     "types": [
-        { 
-            "value": "MRI"
-        },
-        { 
-            "value": "fMRI"
-        }
+        {
+    	    "information": {
+        	    "value": "MRI",
+                "valueIRI": "http://purl.bioontology.org/ontology/SNOMEDCT/113091000"
+        	}
+		},
+        {
+            "information": {
+                "value": "fMRI",
+                "valueIRI":"http://uri.interlex.org/base/ilx_0506130"
+            }
+		}
     ],
     "distributions": [
 	        {
@@ -26,16 +35,35 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.openpain.org/"
+				"landingPage": "https://www.openpain.org/",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
+	"keywords": [
+		{
+			"value" : "human pain"
+		},
+		{
+			"value" : "brain imaging"
+		}
+	],
     "version": "1.0",
-    "privacy": "Open Access",
+    "privacy": "open",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
-            "name": "adult human"
+           "identifier": {
+                "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+				"identifierSource": "NCBI Taxonomy Database"
+            },
+            "name":"Homo sapiens"
+        },
+        {
+            "name":"adult"
         }
     ],
     "extraProperties": [
@@ -47,7 +75,7 @@
                 }
             ]
         },
-	{
+		{
 			"category": "contact",
 			"values": [
 				{
@@ -60,6 +88,54 @@
 			"values": [
 				{
 					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "origin_institution",
+			"values": [
+				{
+					"value": "Northwestern University"
+				}
+			]
+		},
+		{
+			"category": "origin_institution",
+			"values": [
+				{
+					"value": "Northwestern University"
+				}
+			]
+		},
+		{
+			"category": "origin_city",
+			"values": [
+				{
+					"value": "Evanston"
+				}
+			]
+		},
+		{
+			"category": "origin_province",
+			"values": [
+				{
+					"value": "Illinois"
+				}
+			]
+		},
+		{
+			"category": "origin_country",
+			"values": [
+				{
+					"value": "USA"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "76"
 				}
 			]
 		},
